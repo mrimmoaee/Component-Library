@@ -61,7 +61,7 @@ export const TertiaryButton = styled(Button)`
   color: ${defaultTheme.primaryColor};
 
   &:disabled {
-    background-color: none;
+    background: none;
     color: ${defaultTheme.disabled};
     cursor: not-allowed;
   }
