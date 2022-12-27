@@ -92,7 +92,7 @@ const BUTTON_MODIFIERS = {
   `,
 };
 
-const Button = styled.button`
+export const Button = styled.button`
   padding: 12px 24px;
   font-size: ${typeScale.paragraph};
   border-radius: 2px;
@@ -118,7 +118,7 @@ const Button = styled.button`
   }
 `;
 
-const PrimaryButton = styled(Button)`
+export const PrimaryButton = styled(Button)`
   //inheritate button css
   background-color: ${(props) => props.theme.primaryColor};
   border: 2px solid transparent;
@@ -163,4 +163,4 @@ export const TertiaryButton = styled(Button)`
   ${applyStyleModifiers(BUTTON_MODIFIERS)}
 `;
 
-export default PrimaryButton;
+// export default PrimaryButton;
